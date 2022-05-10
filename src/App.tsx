@@ -1,10 +1,18 @@
 import React from 'react';
-import { TextArea } from './components/TextArea/TextArea';
 
 import './App.css';
+import { Tree } from './components/Tree';
+
+import { QueryClient, QueryClientProvider } from 'react-query';
+
+const queryClient = new QueryClient();
 
 const App = () => {
-  return <TextArea></TextArea>;
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Tree />
+    </QueryClientProvider>
+  );
 };
 
 export { App };
