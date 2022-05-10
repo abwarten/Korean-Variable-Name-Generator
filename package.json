@@ -71,6 +71,5 @@
     "prettier": "^2.6.2",
     "prettier-plugin-style-order": "^0.2.2"
   },
-  "packageManager": "yarn@3.2.0",
-  "proxy": "https://korean-variable-name-generator.herokuapp.com/"
+  "packageManager": "yarn@3.2.0"
 }
