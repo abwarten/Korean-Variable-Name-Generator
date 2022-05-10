@@ -43,7 +43,7 @@ const Tree = React.memo<
 
   const papago = async () => {
     const { data } = await axios.post(
-      'https://openapi.naver.com/v1/papago/n2mt',
+      'https://heroku-cors-korean-variable.herokuapp.com/https://openapi.naver.com/v1/papago/n2mt',
       { source: 'ko', target: 'en', text: isInput },
       {
         headers: {
